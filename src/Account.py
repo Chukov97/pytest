@@ -11,3 +11,6 @@ class Account:
     @property
     def owner(self):
         return self.__owner
+
+    # def __del__(self):
+    #     self.__decrease_accounts_count()
